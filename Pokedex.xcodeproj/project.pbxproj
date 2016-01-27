@@ -12,6 +12,7 @@
 		E0E4994A1C594EEA00F6C120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E499481C594EEA00F6C120 /* Main.storyboard */; };
 		E0E4994C1C594EEA00F6C120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E4994B1C594EEA00F6C120 /* Assets.xcassets */; };
 		E0E4994F1C594EEA00F6C120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E4994D1C594EEA00F6C120 /* LaunchScreen.storyboard */; };
+		E0E499571C59507100F6C120 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = E0E499561C59507100F6C120 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E0E4994B1C594EEA00F6C120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E4994E1C594EEA00F6C120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0E499501C594EEA00F6C120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E499561C59507100F6C120 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		E0E499431C594EEA00F6C120 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				E0E499591C5950BC00F6C120 /* View */,
+				E0E499581C5950B600F6C120 /* Controller */,
 				E0E499441C594EEA00F6C120 /* AppDelegate.swift */,
 				E0E499461C594EEA00F6C120 /* ViewController.swift */,
+				E0E499561C59507100F6C120 /* pokemon.csv */,
 				E0E499481C594EEA00F6C120 /* Main.storyboard */,
 				E0E4994B1C594EEA00F6C120 /* Assets.xcassets */,
 				E0E4994D1C594EEA00F6C120 /* LaunchScreen.storyboard */,
 				E0E499501C594EEA00F6C120 /* Info.plist */,
 			);
 			path = Pokedex;
+			sourceTree = "<group>";
+		};
+		E0E499581C5950B600F6C120 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E0E499591C5950BC00F6C120 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +143,7 @@
 			files = (
 				E0E4994F1C594EEA00F6C120 /* LaunchScreen.storyboard in Resources */,
 				E0E4994C1C594EEA00F6C120 /* Assets.xcassets in Resources */,
+				E0E499571C59507100F6C120 /* pokemon.csv in Resources */,
 				E0E4994A1C594EEA00F6C120 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
